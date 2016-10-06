@@ -1,0 +1,11 @@
+Decrypting ecb encrypted cookie data using oracle function, to find block size, detect encryption mode and then decrypt the data.
+
+Output:
+C:\Python27\python.exe C:/Users/hkommineni/PycharmProjects/Crypto/Week5/week5.py
+Block length: 16
+Mode: ecb
+
+Plaintext:
+|Sano|3501 S. Shields Ave||Chicago|IL|60616|312-744-1003|admin@mysite.com|928-293-1928|id=837|v=1|dl=1|req=1|mgr=0|admin=0
+
+Process finished with exit code 0
