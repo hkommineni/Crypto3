@@ -1,0 +1,9 @@
+Week 3 assignment contains 3 parts:
+Part 1: to decrypt the given cipher text using ECB and this logic is present in aesInEcb()
+Part 2: One of line in ciphertext uses ECB mode. Code in detectEcb() detects which one and print that line number.
+Part 3: pkcsPadding() implements PKCS7 padding in AES.
+
+Padding for "NO PAIN NO GAIN!" is "NO PAIN NO GAIN!\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10"
+Since "NO PAIN NO GAIN!" pad to 128 bits. It contains exactly the 16 bytes so hexadecimal x10 is addpended 16 times to the padded output.
+
+week3.py includes all the three parts and executes on a single run. Used Python 2.7.
