@@ -1,0 +1,20 @@
+
+Week 6 assignment part 1, decrypts cookie data after prepending a random number of bytes and decrypt the target bytes.
+part 2, is to validate PKCS7 padding and if the padding is valid, function must strip off the padding.
+
+Output:
+C:\Python27\python.exe C:/Users/hkommineni/PycharmProjects/Crypto/Week6/week6.py
+ This method uses the week 5 code and modify the encryption oracle to add 10,20 number of bytes to the start and decryot the target_bytes
+Block length: 16
+Mode: ecb
+Prefix length: 19
+
+Plaintext:
+|Sano|3501 S. Shields Ave||Chicago|IL|60616|312-744-1003|admin@mysite.com|928-293-1928|id=837|v=1|dl=1|req=1|mgr=0|admin=0
+
+This function takes the plaintext, checks if it has valid padding,
+'This is a Saturday\x02\x02': This is a Saturday
+'This is a Saturda\x03\x02\x02': This is a Saturda
+
+
+Process finished with exit code 0
