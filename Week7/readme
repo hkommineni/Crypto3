@@ -1,0 +1,11 @@
+This program runs for python 2.7 as
+./week7.py
+
+Output:
+
+C:\Python27\python.exe C:/Users/hkommineni/PycharmProjects/Crypto/Week7/week7.py
+Input: XXXXXXXXXXXXXXXX?admin?true
+Output: comment1=raining%20MCs;userdata=�����뤀ߨ`;�%;admin=true;comment2=%20like%20a%20sunny%20day%20tomorrow
+Found ';admin=true;': True
+
+Process finished with exit code 0
