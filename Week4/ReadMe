@@ -1,0 +1,73 @@
+Week 4 assignment contains 2 parts and goes on a single run, used Python 2.7
+
+Implementing CBC mode covers in aesInCbc()
+Detecting ECB/CBC modes covers in detectEcbOrCbc()
+
+Sometimes ECB mode go undetected because there may be a case where one block of cipher text after encoding may not be equal to another block.
+
+Output:
+C:\Python27\python.exe C:/Users/hkommineni/PycharmProjects/Crypto/Week4/week4.py
+ AES in Cipher Block Chaining Mode, this program implements CBC mode using earlier ECB function.
+So close, no matter how far
+Couldn't be much more from the heart
+Forever trusting who we are
+And nothing else matters
+
+Never opened myself this way
+Life is ours, we live it our way
+All these words I don't just say
+And nothing else matters
+
+Trust I seek and I find in you
+Every day for us something new
+Open mind for a different view
+And nothing else matters
+
+Never cared for what they do
+Never cared for what they know
+But I know
+
+So close, no matter how far
+Couldn't be much more from the heart
+Forever trusting who we are
+And nothing else matters
+
+Never cared for what they do
+Never cared for what they know
+But I know
+
+I never opened myself this way
+Life is ours, we live it our way
+All these words I don't just say
+Nothing else matters
+
+Trust I seek and I find in you
+Every day for us, something new
+Open mind for a different view
+And nothing else matters
+
+Never cared for what they say
+Never cared for games they play
+Never cared for what they do
+Never cared for what they know
+And I know, yeah!
+
+So close, no matter how far
+Couldn't be much more from the heart
+Forever trusting who we are
+No, nothing else matters
+
+
+0 ecb Not Selected
+1 cbc Selected
+2 cbc Selected
+3 cbc Selected
+4 cbc Selected
+5 cbc Selected
+6 ecb Not Selected
+7 ecb Not Selected
+8 ecb Not Selected
+9 ecb Not Selected
+
+
+Process finished with exit code 0
