@@ -1,0 +1,28 @@
+Week10 assignment
+
+Instructions to run: Modules needed (crypto, pycrypto)
+
+./Week10.py
+
+Output:
+
+C:\Python27\python.exe C:/Users/hkommineni/PycharmProjects/Crypto/Week10/Week10.py
+ This method recovers the key from CBC with key = IV
+Key ab0d27c91b80e5558acde656d682ea7b == IV ab0d27c91b80e5558acde656d682ea7b
+Recovered Key/IV: ab0d27c91b80e5558acde656d682ea7b
+
+This method implements the SHA-1 keyed MAC
+Original: NO PAIN NO GAIN! OMG!!, these Programming Assignments are too difficult to understand	True
+Bad Key:  NO PAIN NO GAIN OMG!!, these Programming Assignments are too difficult to understand	False
+
+Break a SHA-1 keyed MAC using length extension
+Message: comment1=Crypto%20Gurus;userdata=foo;comment2=%20hereAt%20UNO%20Omaha%20NE%20USA
+MAC: ff5ff7b7e1cefb73cadf5552216f57920e7bfc8b
+Authenticated: True
+
+Message: comment1=Crypto%20Gurus;userdata=foo;comment2=%20hereAt%20UNO%20Omaha%20NE%20USA�                              ;admin=true
+MAC: d0f8659d31d132affbe6fd768b10d0ac9181fc7a
+Authenticated: True
+
+
+Process finished with exit code 0
