@@ -1,0 +1,37 @@
+Week13 assignment
+
+
+./Week13_Part1.py
+Output:
+
+C:\Python27\python.exe C:/Users/hkommineni/PycharmProjects/Crypto/Week13/Week13_Part1.py
+Encrypting: {"social": "078-05-1120", "time": 1480562046}
+Decrypted:  {"social": "078-05-1120", "time": 1480562046}
+Replayed:   ERROR
+Recovered:  {"social": "078-05-1120", "time": 1480562046}
+
+Process finished with exit code 0
+
+
+./Week13_Part2.py
+
+Output:
+C:\Python27\python.exe C:/Users/hkommineni/PycharmProjects/Crypto/Week13/Week13_Part2.py
+('e2 after converting to decimal: ', 65537)
+('a = ', 21846, 'b = ', -1)
+('Inverse of c2 and n is: ', 99584994030260934557669288359203992564560947820518332574029607988624741201569743299858037562811351194026451943294260202239251753134315102552387423153281832956303913730532405806400822088905677904572297869114270027711140890329679460395746346953198309886417547627693699152660295783720824335834844474111711489981L)
+Recovered:  NebraskaWinter
+
+Process finished with exit code 0
+
+
+Mathematical derivation:
+Same N for different users. Since e1 and e2 are two relatively prime encryption exponents. By using Euclidean algorithm, find f1, f2.
+1 = f1e1 + f2e2
+Suppose M is sent to both of the users:
+C1 = M^e1 C2 = M^e2
+Eve recovers M:
+C1^f1 * C2^f2  = M^(e1f1+e2f2) = M (mod N)
+
+
+
